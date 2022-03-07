@@ -44,10 +44,6 @@ function Signup() {
     <Form.Control placeholder="1234 Main St" />
   </Form.Group>
 
-  <Form.Group className="mb-3" controlId="formGridAddress2">
-    <Form.Label>Address 2</Form.Label>
-    <Form.Control placeholder="Apartment, studio, or floor" />
-  </Form.Group>
 
   <Row className="mb-3">
     <Form.Group as={Col} controlId="formGridCity">
@@ -70,7 +66,7 @@ function Signup() {
   </Row>
 
   <Form.Group className="mb-3" id="formGridCheckbox">
-    <Form.Check type="checkbox" label="Check me out" />
+    <Form.Check type="checkbox" label="Check to confirm" />
   </Form.Group>
 
   <Button variant="primary" type="submit">
