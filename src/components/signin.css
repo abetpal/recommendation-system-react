@@ -1,0 +1,17 @@
+* {
+  background-color: rgb(255, 255, 255);
+}
+.body {
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+
+  align-items: center;
+}
+.title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 600;
+  align-items: center;
+  text-align: center;
+}
